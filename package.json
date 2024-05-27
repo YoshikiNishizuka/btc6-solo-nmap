@@ -11,7 +11,7 @@
     "migrate-latest": "npx knex migrate:latest --knexfile db/knexfile.js",
     "seed-data": "npx knex seed:run --knexfile db/knexfile.js",
     "build":"npm install && npm run migrate-latest && npm run seed-data",
-    "start":"node ./server.js"
+    "start":"node server.js"
   },
   "keywords": [],
   "author": "",
