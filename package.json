@@ -9,7 +9,9 @@
     "makeMigration": "npx knex migrate:make --knexfile db/knexfile.js",
     "makeSeed": "npx knex seed:make --knexfile db/knexfile.js",
     "migrate-latest": "npx knex migrate:latest --knexfile db/knexfile.js",
-    "seed-data": "npx knex seed:run --knexfile db/knexfile.js"
+    "seed-data": "npx knex seed:run --knexfile db/knexfile.js",
+    "build":"npm install",
+    "start":"node ./server.js"
   },
   "keywords": [],
   "author": "",
