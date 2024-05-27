@@ -6,6 +6,8 @@ import CurrentPostion from "./components/CurrentPosition";
 import Nall from "./components/Nall";
 import Nearest from "./components/Nearest";
 import Submit from "./components/Submit";
+import L from "leaflet"
+L.Icon.Default.imagePath = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/'
 
 // 現在地取得
 const getCurrentPosition = () =>

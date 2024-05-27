@@ -10,8 +10,8 @@
     "makeSeed": "npx knex seed:make --knexfile db/knexfile.js",
     "migrate-latest": "npx knex migrate:latest --knexfile db/knexfile.js",
     "seed-data": "npx knex seed:run --knexfile db/knexfile.js",
-    "build":"npm install && npm run migrate-latest && npm run seed-data",
-    "start":"node server.js"
+    "build": "npm install && npm run migrate-latest && npm run seed-data",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "knex": "^3.1.0",
+    "leaflet": "^1.9.4",
     "nodemon": "^3.1.0",
     "pg": "^8.11.5"
   }

@@ -9,5 +9,9 @@ export default defineConfig({
     proxy:{
       '/api':'https://btc6-solo-nmap.onrender.com/'
     }
+  },
+  build:{
+    assetsInlineLimit: 0,
   }
+
 })
