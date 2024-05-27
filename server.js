@@ -21,7 +21,8 @@ const allowCrossDomain = function (req, res, next) {
   };
   app.use(allowCrossDomain);
 
-app.use('/', express.static(__dirname + '/frontend/dist'))
+// app.use('/', express.static(__dirname + '/frontend/dist'))
+app.use('/', express.static('https://github.com/YoshikiNishizuka/btc6-solo-nmap/tree/main/frontend/dist'))
 
 app.post('/api/list',async (req,res)=> {
   const body = req.body;
